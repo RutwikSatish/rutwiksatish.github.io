@@ -16,6 +16,13 @@
   --muted: #94a3b8;
   --accent: #38bdf8;
 }
+/* Reduce profile image size */
+img[alt="Rutwik Satish"] {
+  width: 120px;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
 
 /* Base */
 body {
