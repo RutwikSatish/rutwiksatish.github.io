@@ -1,134 +1,108 @@
-<nav>
-  <div class="nav-inner">
-    <a href="#home">Home</a>
-    <a href="#projects">Projects</a>
-    <a href="#education">Education</a>
-    <a href="#contact">Contact</a>
-  </div>
-</nav>
+![Rutwik Satish](assets/profile.jpg)
 
-<a id="home"></a>
-<div class="hero">
-  <img src="assets/profile.jpg" alt="Rutwik Satish">
-  <div>
-    <h1>Rutwik Satish</h1>
-    <p><strong>Supply Chain and Operations Analyst</strong></p>
-    <p>Inventory, planning, and execution decision systems</p>
-    <p>
-      <a href="assets/resume.pdf" target="_blank">Resume PDF</a> ·
-      <a href="https://github.com/RutwikSatish" target="_blank">GitHub</a>
-    </p>
-  </div>
-</div>
+# Rutwik Satish
 
-<div class="section">
-  <div class="two-col">
+**Supply Chain and Operations Analyst**  
+Focused on inventory, planning, and execution decision systems.
 
-    <div>
-      <div class="section-title">About</div>
-      <p>
-        I am a graduate student in Engineering Management at Northeastern University with hands-on internship experience across logistics and industrial engineering.
-      </p>
-      <p>
-        My work focuses on translating operational data into clear decision-support tools for planners and operations teams dealing with inventory imbalance, planning noise, and execution delays.
-      </p>
-    </div>
+[Resume PDF](assets/resume.pdf) ·
+[GitHub](https://github.com/RutwikSatish) ·
+[LinkedIn](https://www.linkedin.com/in/rutwiksatish)
 
-    <div>
-      <div class="section-title">Focus Areas</div>
-      <ul>
-        <li>Supply chain analytics</li>
-        <li>Inventory and demand planning</li>
-        <li>Operations execution systems</li>
-      </ul>
-    </div>
+---
 
-  </div>
-</div>
+## About
 
-<div class="section">
-  <div class="section-title">Experience</div>
+I am a graduate student in Engineering Management at Northeastern University with one year of hands-on internship experience across logistics and industrial engineering.
 
-  <div class="card">
-    <strong>Mercedes-Benz Research and Development India Pvt. Ltd.</strong><br>
-    Industrial Engineering Intern
-    <ul>
-      <li>Analyzed performance data across 25 plus production assets</li>
-      <li>Reduced repeat operational issues by approximately 10 percent</li>
-      <li>Improved KPI reporting accuracy by approximately 30 percent</li>
-      <li>Supported PPAP-aligned documentation</li>
-    </ul>
-  </div>
+Through internships and independent projects, I focus on solving real-world supply chain problems such as inventory imbalance, planning noise, and execution delays. I build decision-support systems that translate operational data into clear, actionable insights for planners and operations teams.
 
-  <div class="card">
-    <strong>Ativegh Logistics Pvt. Ltd.</strong><br>
-    Logistics Intern
-    <ul>
-      <li>Improved service levels by approximately 15 percent</li>
-      <li>Reduced working capital by approximately 10 percent</li>
-      <li>Improved execution efficiency by approximately 8 percent</li>
-      <li>Accelerated execution cycles by approximately 20 percent</li>
-    </ul>
-  </div>
-</div>
+---
 
-<a id="projects"></a>
-<div class="section">
-  <div class="section-title">Projects</div>
+## Experience
 
-  <div class="project-grid">
+### Mercedes-Benz Research and Development India Pvt. Ltd.  
+*Industrial Engineering Intern*
 
-    <div class="card">
-      <strong>PlanPulse</strong><br>
-      Demand planning auto analyst<br>
-      <a href="https://planpulse.streamlit.app/" target="_blank">Live app</a>
-    </div>
+- Analyzed performance data across 25+ production assets, identifying recurring fault patterns impacting downstream availability  
+- Supported root-cause analysis initiatives contributing to an approximate 10% reduction in repeat operational issues  
+- Built standardized Excel KPI dashboards, improving reporting accuracy by approximately 30%  
+- Assisted PPAP-aligned documentation to support planning reliability  
 
-    <div class="card">
-      <strong>FactoryPulse</strong><br>
-      Production flow simulator<br>
-      <a href="https://factorypulse.streamlit.app/" target="_blank">Live app</a>
-    </div>
+### Ativegh Logistics Pvt. Ltd.  
+*Logistics Intern*
 
-    <div class="card">
-      <strong>Supply Chain Decision Translator</strong><br>
-      Decision prioritization tool<br>
-      <a href="https://scdt-app.streamlit.app/" target="_blank">Live app</a>
-    </div>
+- Conducted SKU-level inventory and material flow analysis, contributing to an approximate 15% increase in service levels  
+- Reduced working capital by approximately 10% through replenishment analysis  
+- Improved execution efficiency by approximately 8% through KPI tracking  
+- Supported Tableau dashboards that accelerated execution cycles by approximately 20%  
 
-    <div class="card">
-      <strong>Adaptive Supply Chain Decision Engine</strong><br>
-      Forecast risk and inventory exposure framework<br>
-      <a href="https://public.tableau.com/views/AdaptiveSupplyChainDecisionEngineASCDEEVPlanningPrioritization/AdaptiveSupplyChainDecisionEngineASCDE" target="_blank">
-        Tableau dashboard
-      </a>
-    </div>
+---
 
-  </div>
-</div>
+## Projects
 
-<a id="education"></a>
-<div class="section">
-  <div class="section-title">Education</div>
+### PlanPulse  
+*Demand Planning Auto-Analyst*  
+[Live App](https://planpulse.streamlit.app/) · [Case Study](projects/planpulse.md)
 
-  <p>
-    <strong>Northeastern University</strong><br>
-    MS in Engineering Management · GPA 3.67
-  </p>
+![PlanPulse](assets/planpulse.png)
 
-  <p>
-    <strong>Dayananda Sagar College of Engineering</strong><br>
-    BE in Industrial Engineering and Management · GPA 3.45
-  </p>
-</div>
+---
 
-<a id="contact"></a>
-<div class="section contact">
-  <div class="section-title">Contact</div>
+### FactoryPulse  
+*Production Flow Simulator*  
+[Live App](https://factorypulse.streamlit.app/) · [Case Study](projects/factorypulse.md)
 
-  <p>
-    Email: <a href="mailto:satish.ru@northeastern.edu">satish.ru@northeastern.edu</a><br>
-    LinkedIn: <a href="https://www.linkedin.com/in/rutwiksatish" target="_blank">linkedin.com/in/rutwiksatish</a><br>
-    GitHub: <a href="https://github.com/RutwikSatish" target="_blank">github.com/RutwikSatish</a>
-  </p>
-</div>
+![FactoryPulse](assets/factorypulse.png)
+
+---
+
+### Supply Chain Decision Translator  
+*Decision Prioritization Tool*  
+[Live App](https://scdt-app.streamlit.app/) · [Case Study](projects/scdt.md)
+
+![Supply Chain Decision Translator](assets/scdt.png)
+
+---
+
+### Adaptive Supply Chain Decision Engine  
+*Forecast Risk and Inventory Exposure Framework*  
+[Tableau Dashboard](https://public.tableau.com/views/AdaptiveSupplyChainDecisionEngineASCDEEVPlanningPrioritization/AdaptiveSupplyChainDecisionEngineASCDE) ·  
+[Case Study](projects/ascde.md)
+
+---
+
+## Skills
+
+**Supply Chain and Operations**
+- Inventory management and replenishment  
+- Demand variability and forecast risk  
+- Material flow and bottleneck analysis  
+- Warehouse operations  
+
+**Analytics and Tools**
+- Python and SQL  
+- Advanced Excel  
+- Tableau  
+- AutoCAD  
+- ERP-style data analysis  
+
+---
+
+## Education
+
+**Northeastern University**  
+Master of Science in Engineering Management  
+GPA: 3.67  
+
+**Dayananda Sagar College of Engineering**  
+Bachelor of Engineering in Industrial Engineering and Management  
+GPA: 3.45  
+
+---
+
+## Contact
+
+Email: [satish.ru@northeastern.edu](mailto:satish.ru@northeastern.edu)  
+LinkedIn: [linkedin.com/in/rutwiksatish](https://www.linkedin.com/in/rutwiksatish)  
+GitHub: [github.com/RutwikSatish](https://github.com/RutwikSatish)
