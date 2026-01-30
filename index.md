@@ -2,8 +2,8 @@
   <div class="nav-inner">
     <a href="/">Home</a>
     <a href="#projects">Projects</a>
-    <a href="resume.html">Resume</a>
-    <a href="mailto:satish.ru@northeastern.edu">Contact</a>
+    <a href="#education">Education</a>
+    <a href="#contact">Contact</a>
   </div>
 </nav>
 
@@ -30,7 +30,7 @@
         I am a graduate student in Engineering Management at Northeastern University with one year of hands-on internship experience across logistics and industrial engineering.
       </p>
       <p>
-        Through my internships and independent projects, I focus on understanding real-world supply chain problems, including inventory imbalances, planning noise, and execution delays. I build decision-support systems that translate operational data into clear, actionable insights for planners and operations teams.
+        I build decision-support systems that translate operational data into clear, actionable insights for planners and operations teams.
       </p>
     </div>
 
@@ -53,10 +53,10 @@
     <strong>Mercedes-Benz Research and Development India Pvt. Ltd.</strong><br>
     Industrial Engineering Intern
     <ul>
-      <li>Analyzed performance data across 25 plus production assets, identifying recurring fault patterns impacting downstream availability</li>
-      <li>Supported root-cause analysis initiatives contributing to an approximate 10 percent reduction in repeat operational issues</li>
-      <li>Built standardized Excel KPI dashboards, improving reporting accuracy by approximately 30 percent</li>
-      <li>Assisted PPAP-aligned documentation to support planning reliability</li>
+      <li>Analyzed performance data across 25 plus production assets</li>
+      <li>Reduced repeat operational issues by approximately 10 percent</li>
+      <li>Improved KPI reporting accuracy by approximately 30 percent</li>
+      <li>Supported PPAP-aligned documentation</li>
     </ul>
   </div>
 
@@ -64,10 +64,10 @@
     <strong>Ativegh Logistics Pvt. Ltd.</strong><br>
     Logistics Intern
     <ul>
-      <li>Conducted SKU-level inventory and material flow analysis contributing to an approximate 15 percent increase in service levels</li>
-      <li>Reduced working capital by approximately 10 percent through replenishment analysis</li>
-      <li>Improved execution efficiency by approximately 8 percent through KPI tracking</li>
-      <li>Supported Tableau dashboards that accelerated execution cycles by approximately 20 percent</li>
+      <li>Improved service levels by approximately 15 percent</li>
+      <li>Reduced working capital by approximately 10 percent</li>
+      <li>Improved execution efficiency by approximately 8 percent</li>
+      <li>Accelerated execution cycles by approximately 20 percent</li>
     </ul>
   </div>
 </div>
@@ -77,29 +77,22 @@
   <div class="section-title">Projects</div>
 
   <div class="project-grid">
-
     <div class="card">
       <strong>PlanPulse</strong><br>
       Demand planning auto analyst<br>
-      <a href="https://planpulse.streamlit.app/" target="_blank">Live app</a> |
-      <a href="projects/planpulse.html">Case study</a>
-      <img src="assets/planpulse.png" alt="PlanPulse">
+      <a href="https://planpulse.streamlit.app/" target="_blank">Live app</a>
     </div>
 
     <div class="card">
       <strong>FactoryPulse</strong><br>
       Production flow simulator<br>
-      <a href="https://factorypulse.streamlit.app/" target="_blank">Live app</a> |
-      <a href="projects/factorypulse.html">Case study</a>
-      <img src="assets/factorypulse.png" alt="FactoryPulse">
+      <a href="https://factorypulse.streamlit.app/" target="_blank">Live app</a>
     </div>
 
     <div class="card">
       <strong>Supply Chain Decision Translator</strong><br>
       Decision prioritization tool<br>
-      <a href="https://scdt-app.streamlit.app/" target="_blank">Live app</a> |
-      <a href="projects/scdt.html">Case study</a>
-      <img src="assets/scdt.png" alt="SCDT">
+      <a href="https://scdt-app.streamlit.app/" target="_blank">Live app</a>
     </div>
 
     <div class="card">
@@ -107,59 +100,28 @@
       Forecast risk and inventory exposure framework<br>
       <a href="https://public.tableau.com/views/AdaptiveSupplyChainDecisionEngineASCDEEVPlanningPrioritization/AdaptiveSupplyChainDecisionEngineASCDE" target="_blank">
         Tableau dashboard
-      </a> |
-      <a href="projects/ascde.html">Case study</a>
+      </a>
     </div>
-
   </div>
 </div>
 
-<div class="section">
-  <div class="two-col">
-
-    <div>
-      <div class="section-title">Supply Chain and Operations</div>
-      <ul>
-        <li>Inventory management and replenishment</li>
-        <li>Demand variability and forecast risk</li>
-        <li>Material flow and bottleneck analysis</li>
-        <li>Warehouse operations</li>
-      </ul>
-    </div>
-
-    <div>
-      <div class="section-title">Analytics and Tools</div>
-      <ul>
-        <li>Python and SQL</li>
-        <li>Advanced Excel</li>
-        <li>Tableau</li>
-        <li>AutoCAD</li>
-        <li>ERP-style data analysis</li>
-      </ul>
-    </div>
-
-  </div>
-</div>
-
+<a id="education"></a>
 <div class="section">
   <div class="section-title">Education</div>
 
   <p>
     <strong>Northeastern University</strong><br>
-    Master of Science in Engineering Management<br>
-    GPA: 3.67<br>
-    Relevant coursework: Supply Chain Engineering, Manufacturing Systems Design, Engineering Project Management, Lean Concepts, Economic Decision Making, Computation and Visualization, Operations Research, Engineering Probability and Statistics
+    MS in Engineering Management — GPA 3.67
   </p>
 
   <p>
     <strong>Dayananda Sagar College of Engineering</strong><br>
-    Bachelor of Engineering in Industrial Engineering and Management<br>
-    GPA: 3.45<br>
-    Relevant coursework: Computer Aided Machine Drawing, Thermodynamics, Fluid Mechanics, Design of Machine Elements, Total Quality Management, Automation, and Robotics
+    BE in Industrial Engineering and Management — GPA 3.45
   </p>
 </div>
 
-<div class="section">
+<a id="contact"></a>
+<div class="section contact-block">
   <div class="section-title">Contact</div>
 
   <p>
