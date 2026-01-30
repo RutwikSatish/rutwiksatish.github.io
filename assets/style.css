@@ -14,9 +14,9 @@ a:hover {
 
 /* Profile image: square + balanced size */
 img[alt="Rutwik Satish"] {
-  width: 100px;
-  border-radius: 6px;
-  margin-bottom: 10px;
+  width: 75px;
+  border-radius: 4px;
+  margin-bottom: 6px;
 }
 
 /* Improve paragraph readability */
