@@ -143,23 +143,24 @@
 
 <div class="section">
   <div class="section-title">Education</div>
+
   <p>
     <strong>Northeastern University</strong><br>
     Master of Science in Engineering Management<br>
     GPA: 3.67
+    Relevant Coursework: Supply Chain Engineering, Manufacturing Systems Design, Engineering Project Management, Lean Concepts, Economic Decision Making, Computation and Visualization, Operations Research, Engineering Probability & Statistics
   </p>
+
   <p>
     <strong>Dayananda Sagar College of Engineering</strong><br>
     Bachelor of Engineering in Industrial Engineering and Management<br>
     GPA: 3.45
+    Relevant Coursework: Computer-Aided Machine Drawing(CAD), Thermodynamics, Fluid Mechanics, Design of Machine Elements, Total Quality
+Management, Automation, and Robotics
   </p>
 </div>
 
 <div class="section">
   <div class="section-title">Contact</div>
-  <p>
-    Email: <a href="mailto:satish.ru@northeastern.edu">satish.ru@northeastern.edu</a><br>
-    LinkedIn: <a href="https://www.linkedin.com/in/rutwiksatish/" target="_blank">linkedin.com/in/rutwiksatish</a><br>
-    GitHub: <a href="https://github.com/RutwikSatish" target="_blank">github.com/RutwikSatish</a>
-  </p>
-</div>
+
+  <p
