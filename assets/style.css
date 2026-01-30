@@ -46,21 +46,29 @@ a:hover {
   margin-bottom: 48px;
 }
 
+.hero {
+  max-width: 900px;
+  margin: 0 auto 48px auto;
+}
+
 .hero img {
-  width: 140px;
-  height: 140px;
+  width: 96px;
+  height: 96px;
   border-radius: 50%;
 }
 
 .toggle {
   cursor: pointer;
-  font-size: 14px;
+  font-size: 13px;
   border: 1px solid var(--border);
   padding: 6px 12px;
-  border-radius: 6px;
+  border-radius: 999px;
   display: inline-block;
-  margin-bottom: 24px;
+  margin: 16px auto;
+  background: var(--card);
+  max-width: fit-content;
 }
+
 .two-col {
   display: grid;
   grid-template-columns: 2fr 1fr;
