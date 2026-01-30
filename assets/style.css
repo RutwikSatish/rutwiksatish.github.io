@@ -61,3 +61,14 @@ a:hover {
   display: inline-block;
   margin-bottom: 24px;
 }
+.two-col {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 32px;
+}
+
+@media (max-width: 900px) {
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
