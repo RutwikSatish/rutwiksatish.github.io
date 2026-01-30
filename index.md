@@ -54,12 +54,12 @@ Beyond my internships, I research real-world supply chain problems such as inven
 ## Experience
 
 <div class="card">
-<strong>Mercedes-Benz R and D India</strong><br>
+<strong>Mercedes-Benz Research and Development India Pvt. Ltd.</strong><br>
 Industrial Engineering Intern
 <ul>
-<li>Analyzed performance data across 25 plus production assets, identifying recurring fault patterns impacting downstream availability</li>
-<li>Supported root-cause analysis initiatives contributing to an approximate 10 percent reduction in repeat operational issues</li>
-<li>Built standardized Excel KPI dashboards, improving reporting accuracy by approximately 30 percent</li>
+<li>Analyzed performance data across 25+ production assets, identifying recurring fault patterns impacting downstream availability</li>
+<li>Supported root-cause analysis initiatives contributing to an approximate 10 % reduction in repeat operational issues</li>
+<li>Built standardized Excel KPI dashboards, improving reporting accuracy by approximately 30 %</li>
 <li>Assisted PPAP-aligned documentation to support planning reliability</li>
 </ul>
 </div>
@@ -68,10 +68,10 @@ Industrial Engineering Intern
 <strong>Ativegh Logistics Pvt. Ltd.</strong><br>
 Logistics Intern
 <ul>
-<li>Conducted SKU-level inventory and material flow analysis contributing to an approximate 15 percent increase in service levels</li>
-<li>Reduced working capital by approximately 10 percent through replenishment analysis</li>
-<li>Improved execution efficiency by approximately 8 percent through KPI tracking</li>
-<li>Supported Tableau dashboards that accelerated execution cycles by approximately 20 percent</li>
+<li>Conducted SKU-level inventory and material flow analysis, contributing to an approximate 15 % increase in service levels</li>
+<li>Reduced working capital by approximately 10 % through replenishment analysis</li>
+<li>Improved execution efficiency by approximately 8 % through KPI tracking</li>
+<li>Supported Tableau dashboards that accelerated execution cycles by approximately 20 %</li>
 </ul>
 </div>
 
