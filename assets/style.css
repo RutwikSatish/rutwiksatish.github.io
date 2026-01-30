@@ -1,3 +1,6 @@
+/* =========================
+   Global variables
+========================= */
 :root {
   --bg: #ffffff;
   --text: #1f2933;
@@ -6,7 +9,9 @@
   --link: #2563eb;
 }
 
-/* Base layout */
+/* =========================
+   Base styles
+========================= */
 body {
   background: var(--bg);
   color: var(--text);
@@ -14,7 +19,6 @@ body {
   line-height: 1.6;
 }
 
-/* Links */
 a {
   color: var(--link);
   text-decoration: none;
@@ -25,61 +29,98 @@ a:hover {
   text-decoration: underline;
 }
 
-/* HERO SECTION */
-/* Photo on the LEFT, smaller and professional */
+/* =========================
+   Navigation
+========================= */
+nav {
+  border-bottom: 1px solid var(--border);
+}
+
+nav .nav-inner {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 14px 0;
+  display: flex;
+  gap: 24px;
+}
+
+/* =========================
+   Hero section
+========================= */
 .hero {
   max-width: 900px;
-  margin: 40px auto;
+  margin: 48px auto 32px auto;
   display: grid;
-  grid-template-columns: 80px 1fr; /* SMALLER IMAGE COLUMN */
-  gap: 28px;
+  grid-template-columns: 64px 1fr; /* SMALL image column */
+  gap: 24px;
   align-items: center;
 }
 
 .hero img {
-  width: 72px;        /* SMALLER PHOTO */
-  height: 72px;
+  width: 56px;   /* SMALLER IMAGE */
+  height: 56px;
   border-radius: 50%;
 }
 
-/* Cards */
+.hero h1 {
+  margin: 0;
+}
+
+.hero p {
+  margin: 6px 0;
+}
+
+/* =========================
+   Section wrapper
+========================= */
+.section {
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.section-title {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+/* =========================
+   Cards
+========================= */
 .card {
   background: var(--card);
   border: 1px solid var(--border);
   border-radius: 10px;
   padding: 20px;
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
-/* Two-column sections (About + Focus, Skills) */
+/* =========================
+   Two column layout
+========================= */
 .two-col {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 32px;
-  margin-top: 40px;
 }
 
 @media (max-width: 900px) {
-  .hero {
-    grid-template-columns: 1fr;
-    text-align: left;
-  }
-
-  .hero img {
-    margin-bottom: 12px;
-  }
-
   .two-col {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
     grid-template-columns: 1fr;
   }
 }
 
-/* Projects grid */
+/* =========================
+   Project grid
+========================= */
 .project-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 20px;
-  margin-top: 24px;
 }
 
 .project-grid img {
