@@ -9,18 +9,6 @@
 
 <div style="max-width:900px;margin:0 auto;">
 
-  <div class="toggle" onclick="toggleTheme()">Toggle dark mode</div>
-
-</div>
-
-<script>
-function toggleTheme() {
-  const html = document.documentElement;
-  html.dataset.theme =
-    html.dataset.theme === "dark" ? "light" : "dark";
-}
-</script>
-
 <div class="hero">
   <img src="assets/profile.jpg" alt="Rutwik Satish">
   <div class="hero-text">
