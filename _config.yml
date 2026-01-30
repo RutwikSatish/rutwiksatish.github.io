@@ -1,20 +1,5 @@
 title: Rutwik Satish
 description: Supply Chain and Operations Analyst
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: dark
+theme: jekyll-theme-slate
 
 markdown: kramdown
-
-plugins:
-  - jekyll-include-cache
-
-author:
-  name: Rutwik Satish
-  avatar: /assets/profile.jpg
-
-defaults:
-  - scope:
-      path: ""
-    values:
-      layout: single
-      author_profile: true
