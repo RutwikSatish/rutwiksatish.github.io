@@ -1,79 +1,31 @@
-/* =====================================================
-   Minimal Mistakes – Final Professional Polish
-   Stable, recruiter-grade styling
-===================================================== */
+/* ==============================
+   Slate Theme – Accent Polish
+   Clean, professional, subtle
+============================== */
 
-/* ---- Typography refinement ---- */
-.page__content p,
-.page__content li {
-  font-size: 0.95rem;
-  line-height: 1.7;
-}
-
-/* ---- Section spacing ---- */
-.page__content h2 {
-  margin-top: 2.5rem;
-  margin-bottom: 1.2rem;
-}
-
-.page__content h3 {
-  margin-top: 1.8rem;
-  margin-bottom: 0.6rem;
-}
-
-/* ---- Sidebar profile image (square + slightly larger) ---- */
-.author__avatar img {
-  max-width: 140px;        /* intentional, not overpowering */
-  border-radius: 8px;     /* square with soft corners */
-  border: 1px solid #2d3748;
-}
-
-/* ---- Hide duplicated name below image ---- */
-.author__name {
-  display: none;
-}
-
-/* ---- Sidebar bio text ---- */
-.author__bio {
-  font-size: 0.9rem;
-  color: #9ca3af;
-  line-height: 1.5;
-}
-
-/* ---- Links ---- */
+/* Accent color for links */
 a {
-  text-decoration: none;
+  color: #5fa8ff;
 }
 
 a:hover {
   text-decoration: underline;
 }
 
-/* ---- Project images ---- */
-.page__content img {
+/* Profile image: square + balanced size */
+img[alt="Rutwik Satish"] {
+  width: 140px;
+  border-radius: 6px;
+  margin-bottom: 16px;
+}
+
+/* Improve paragraph readability */
+p, li {
+  line-height: 1.7;
+}
+
+/* Slight spacing for project images */
+img {
   margin-top: 12px;
   margin-bottom: 20px;
-  border-radius: 6px;
-}
-
-/* ---- Horizontal separators ---- */
-.page__content hr {
-  border: none;
-  border-top: 1px solid #1f2937;
-  margin: 2.5rem 0;
-}
-
-/* ---- Lists ---- */
-.page__content ul {
-  margin-top: 0.5rem;
-}
-
-/* ---- Code blocks (future-proof) ---- */
-.highlight {
-  border-radius: 6px;
-}
-
-/* ---- Footer spacing ---- */
-.page__footer {
-  margin-top: 4rem;
 }
