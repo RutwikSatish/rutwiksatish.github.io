@@ -51,13 +51,13 @@ nav .nav-inner {
   max-width: 900px;
   margin: 48px auto 32px auto;
   display: grid;
-  grid-template-columns: 64px 1fr; /* SMALL image column */
+  grid-template-columns: 64px 1fr;
   gap: 24px;
   align-items: center;
 }
 
 .hero img {
-  width: 56px;   /* SMALLER IMAGE */
+  width: 56px;
   height: 56px;
   border-radius: 50%;
 }
@@ -71,17 +71,19 @@ nav .nav-inner {
 }
 
 /* =========================
-   Section wrapper
+   Sections
 ========================= */
 .section {
   max-width: 900px;
-  margin: 40px auto;
+  margin: 48px auto;
 }
 
+/* BIG, BOLD SECTION HEADINGS */
 .section-title {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 12px;
+  font-size: 22px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  letter-spacing: 0.2px;
 }
 
 /* =========================
