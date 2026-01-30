@@ -29,17 +29,17 @@
 
 <div>
 
-## About
+<strong>About
 
 I am a graduate student in Engineering Management at Northeastern University with one year of hands-on internship experience across logistics and industrial engineering.
 
-Through my internships and independent projects, I have focused on understanding real-world supply chain problems such as inventory imbalance, planning noise, and execution delays. I build decision-support systems that translate operational data into clear, actionable insights for planners and operations teams.
+Through my internships and independent projects, I have focused on understanding real-world supply chain problems, including inventory imbalances, planning noise, and execution delays. I build decision-support systems that translate operational data into clear, actionable insights for planners and operations teams.
 
 </div>
 
 <div>
 
-## Focus Areas
+<strong>Focus Areas
 
 - Supply Chain Analytics  
 - Inventory and Demand Planning  
@@ -51,7 +51,7 @@ Through my internships and independent projects, I have focused on understanding
 
 ---
 
-## Experience
+<strong>Experience
 
 <div class="card">
 <strong>Mercedes-Benz Research and Development India Pvt. Ltd.</strong><br>
@@ -78,7 +78,7 @@ Logistics Intern
 ---
 
 <a id="projects"></a>
-## Projects
+<strong>Projects
 
 <div class="project-grid">
 
@@ -123,7 +123,7 @@ Tableau dashboard
 
 <div>
 
-## Supply Chain and Operations
+<strong>Supply Chain and Operations
 
 - Inventory Management and Replenishment  
 - Demand Variability and Forecast Risk  
@@ -134,7 +134,7 @@ Tableau dashboard
 
 <div>
 
-## Analytics and Tools
+<strong>Analytics and Tools
 
 - Python and SQL  
 - Advanced Excel  
@@ -148,7 +148,7 @@ Tableau dashboard
 
 ---
 
-## Education
+<strong>Education
 
 <strong>Northeastern University</strong><br>
 Master of Science in Engineering Management<br>
@@ -162,7 +162,7 @@ GPA: 3.45
 
 ---
 
-## Contact
+<strong>Contact
 
 Email: <a href="mailto:satish.ru@northeastern.edu">satish.ru@northeastern.edu</a><br>
 LinkedIn: <a href="https://www.linkedin.com/in/rutwiksatish/" target="_blank">linkedin.com/in/rutwiksatish</a><br>
