@@ -1,9 +1,9 @@
 /* =====================================================
-   Minimal Mistakes – Professional Dark Polish
-   Purpose: subtle refinement, not redesign
+   Minimal Mistakes – Final Professional Polish
+   Stable, recruiter-grade styling
 ===================================================== */
 
-/* ---- Typography polish ---- */
+/* ---- Typography refinement ---- */
 .page__content p,
 .page__content li {
   font-size: 0.95rem;
@@ -21,19 +21,23 @@
   margin-bottom: 0.6rem;
 }
 
-/* ---- Profile / Author card ---- */
+/* ---- Sidebar profile image (square + slightly larger) ---- */
 .author__avatar img {
-  max-width: 110px;          /* smaller, professional */
-  border-radius: 6px;
+  max-width: 140px;        /* intentional, not overpowering */
+  border-radius: 8px;     /* square with soft corners */
+  border: 1px solid #2d3748;
 }
 
+/* ---- Hide duplicated name below image ---- */
 .author__name {
-  font-weight: 700;
+  display: none;
 }
 
+/* ---- Sidebar bio text ---- */
 .author__bio {
   font-size: 0.9rem;
   color: #9ca3af;
+  line-height: 1.5;
 }
 
 /* ---- Links ---- */
@@ -52,19 +56,19 @@ a:hover {
   border-radius: 6px;
 }
 
-/* ---- Horizontal rule (subtle) ---- */
+/* ---- Horizontal separators ---- */
 .page__content hr {
   border: none;
   border-top: 1px solid #1f2937;
   margin: 2.5rem 0;
 }
 
-/* ---- Lists (cleaner bullets) ---- */
+/* ---- Lists ---- */
 .page__content ul {
   margin-top: 0.5rem;
 }
 
-/* ---- Code blocks (if any) ---- */
+/* ---- Code blocks (future-proof) ---- */
 .highlight {
   border-radius: 6px;
 }
