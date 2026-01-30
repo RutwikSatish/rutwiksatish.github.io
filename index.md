@@ -15,7 +15,7 @@
     <h1>Rutwik Satish</h1>
     <p>
       <strong>Supply Chain and Operations Analyst</strong><br>
-      Inventory, Planning, and Flow Decision Systems
+      Focused on Inventory, Planning, and Flow Decision Systems
     </p>
     <p>
       <a href="resume.html">View resume</a> |
