@@ -1,21 +1,21 @@
 <nav>
   <div class="nav-inner">
-    <a href="/">Home</a>
+    <a href="#home">Home</a>
     <a href="#projects">Projects</a>
     <a href="#education">Education</a>
     <a href="#contact">Contact</a>
   </div>
 </nav>
 
+<a id="home"></a>
 <div class="hero">
   <img src="assets/profile.jpg" alt="Rutwik Satish">
   <div>
     <h1>Rutwik Satish</h1>
     <p><strong>Supply Chain and Operations Analyst</strong></p>
-    <p>Focused on inventory, planning, and flow decision systems</p>
+    <p>Inventory, planning, and execution decision systems</p>
     <p>
-      <a href="resume.html">View resume</a> |
-      <a href="assets/resume.pdf" target="_blank">Download PDF</a> |
+      <a href="assets/resume.pdf" target="_blank">Resume PDF</a> ·
       <a href="https://github.com/RutwikSatish" target="_blank">GitHub</a>
     </p>
   </div>
@@ -27,10 +27,10 @@
     <div>
       <div class="section-title">About</div>
       <p>
-        I am a graduate student in Engineering Management at Northeastern University with one year of hands-on internship experience across logistics and industrial engineering.
+        I am a graduate student in Engineering Management at Northeastern University with hands-on internship experience across logistics and industrial engineering.
       </p>
       <p>
-        I build decision-support systems that translate operational data into clear, actionable insights for planners and operations teams.
+        My work focuses on translating operational data into clear decision-support tools for planners and operations teams dealing with inventory imbalance, planning noise, and execution delays.
       </p>
     </div>
 
@@ -39,7 +39,7 @@
       <ul>
         <li>Supply chain analytics</li>
         <li>Inventory and demand planning</li>
-        <li>Operations and execution support</li>
+        <li>Operations execution systems</li>
       </ul>
     </div>
 
@@ -77,6 +77,7 @@
   <div class="section-title">Projects</div>
 
   <div class="project-grid">
+
     <div class="card">
       <strong>PlanPulse</strong><br>
       Demand planning auto analyst<br>
@@ -102,6 +103,7 @@
         Tableau dashboard
       </a>
     </div>
+
   </div>
 </div>
 
@@ -111,17 +113,17 @@
 
   <p>
     <strong>Northeastern University</strong><br>
-    MS in Engineering Management — GPA 3.67
+    MS in Engineering Management · GPA 3.67
   </p>
 
   <p>
     <strong>Dayananda Sagar College of Engineering</strong><br>
-    BE in Industrial Engineering and Management — GPA 3.45
+    BE in Industrial Engineering and Management · GPA 3.45
   </p>
 </div>
 
 <a id="contact"></a>
-<div class="section contact-block">
+<div class="section contact">
   <div class="section-title">Contact</div>
 
   <p>
