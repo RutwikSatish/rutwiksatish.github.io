@@ -1,136 +1,129 @@
-# Hi, I’m Rutwik 👋
+<div class="toggle" onclick="toggleTheme()">Toggle dark mode</div>
 
-### Supply Chain & Operations Analyst  
-### Inventory, Planning & Flow Decision Systems
+<script>
+function toggleTheme() {
+  const html = document.documentElement;
+  html. dataset.theme =
+    html. dataset.theme === "dark" ? "light": "dark";
+}
+</script>
 
-I’m a graduate student in Engineering Management at Northeastern University with **one year of hands-on internship experience** across logistics and industrial engineering.
+<div class="hero">
+  <img src="assets/profile.jpg" alt="Rutwik Satish">
+  <div class="hero-text">
+    <h1>Rutwik Satish</h1>
+    <p><strong>Supply Chain and Operations Analyst</strong><br>
+    Inventory, Planning, and Flow Decision Systems</p>
+  </div>
+</div>
 
-Beyond my internships, I research **real-world supply chain failure modes**—inventory imbalance, planning noise, execution delays—and build **decision-support systems** that translate messy operational data into clear, actionable decisions.
+I am a graduate student in Engineering Management at Northeastern University with one year of hands-on internship experience across logistics and industrial engineering.
 
-I’m interested in roles where **data, operations, and judgment intersect**, especially in:
-- Supply Chain Analytics  
-- Inventory & Demand Planning  
-- Operations & Execution Support  
+Beyond my internships, I research real-world supply chain problems such as inventory imbalance, planning noise, and execution delays, and I build decision-support systems that translate operational data into clear, actionable decisions.
 
 ---
 
 ## Experience
 
-### **Mercedes-Benz R&D India**  
-*Industrial Engineering Intern*
+<div class="card">
+<strong>Mercedes-Benz R and D India</strong><br>
+Industrial Engineering Intern
 
-- Analyzed performance data across **25+ production assets**, identifying recurring fault patterns impacting downstream availability  
-- Supported root-cause analysis initiatives contributing to a **~10% reduction in repeat operational issues**  
-- Built standardized Excel KPI dashboards, improving **reporting accuracy by ~30%**  
-- Assisted PPAP-aligned documentation to support planning reliability and schedule adherence  
+<ul>
+<li>Analyzed performance data across 25+ production assets, identifying recurring fault patterns impacting downstream availability</li>
+<li>Supported root-cause analysis initiatives contributing to an approximate 10 % reduction in repeat operational issues</li>
+<li>Built standardized Excel KPI dashboards, improving reporting accuracy by approximately 30 % </li>
+<li>Assisted PPAP-aligned documentation to support planning reliability</li>
+</ul>
+</div>
+
+<div class="card">
+<strong>Ativegh Logistics Pvt. Ltd.</strong><br>
+Logistics Intern
+
+<ul>
+<li>Conducted SKU-level inventory and material flow analysis, contributing to an approximate 15 % increase in service levels</li>
+<li>Reduced working capital by approximately 10 % through replenishment analysis</li>
+<li>Improved execution efficiency by approximately 8 % through KPI tracking</li>
+<li>Supported Tableau dashboards that accelerated execution cycles by approximately 20 % </li>
+</ul>
+</div>
 
 ---
 
-### **Ativegh Logistics Pvt. Ltd.**  
-*Logistics Intern*
+## Flagship Project - PlanPulse
 
-- Conducted SKU-level inventory and material flow analysis contributing to a **~15% increase in service levels**  
-- Tracked stock velocity and replenishment behavior, supporting decisions that reduced **working capital by ~10%**  
-- Compiled weekly operational KPIs enabling faster bottleneck identification and a **~9% efficiency improvement**  
-- Supported Tableau dashboards that accelerated execution cycles by **~20%**
+<div class="card">
+<strong>PlanPulse - Demand Planning Auto Analyst</strong>
 
----
+<p><strong>Problem</strong><br>
+Planners monitor hundreds of SKUs, but risk is uneven. This leads to reactive firefighting and excess inventory.</p>
 
-## Flagship Project  
-# PlanPulse — Demand Planning Auto-Analyst
+<p><strong>Solution</strong><br>
+A decision-support system that prioritizes SKUs based on demand volatility, inventory exposure, and service risk.</p>
 
-**Problem**  
-Planners monitor hundreds of SKUs, but attention is often spread evenly—despite risk being highly uneven.  
-This leads to reactive firefighting, excess inventory, and missed service risks.
+<p><strong>What it delivers</strong></p>
+<ul>
+<li>Ranks SKUs by true operational risk</li>
+<li>Quantifies service versus inventory versus cash trade-offs</li>
+<li>Recommends next-best planning actions</li>
+</ul>
 
-**My Approach**  
-I designed a decision-support system that prioritizes SKUs based on:
-- Demand volatility  
-- Inventory exposure  
-- Service-level sensitivity  
+<p>
+<a href="https://planpulse.streamlit.app/" target="_blank">View Live Application</a>
+</p>
 
-Instead of “monitor everything,” the system answers:  
-**_Where should planner attention go this week?_**
-
-**What PlanPulse Does**
-- Ranks SKUs by **true operational risk**
-- Quantifies **service vs inventory vs cash trade-offs**
-- Generates explainable next-best planning actions
-- Automates weekly summaries to reduce manual analysis
-
-**Why It Matters**  
-PlanPulse demonstrates how planning teams can shift from reactive monitoring to **risk-based decision making**.
-
-🔗 **Live App:** https://planpulse.streamlit.app/
+<img src="assets/planpulse.png" alt="PlanPulse Screenshot">
+</div>
 
 ---
 
 ## Other Projects
 
-### **FactoryPulse — Production Flow Simulator**
-A simulation-based tool to study bottlenecks, WIP, throughput, and cycle time under different control strategies.
+<div class="card project-grid">
+<strong>FactoryPulse - Production Flow Simulator</strong><br>
+<a href="https://factorypulse.streamlit.app/" target="_blank">View Application</a>
+<img src="assets/factorypulse.png" alt="FactoryPulse Screenshot">
+</div>
 
-- Models PUSH vs CONWIP systems  
-- Visualizes WIP–throughput–cycle time trade-offs  
-- Highlights the impact of variability on flow stability  
+<div class="card project-grid">
+<strong>Supply Chain Decision Translator</strong><br>
+<a href="https://scdt-app.streamlit.app/" target="_blank">View Application</a>
+<img src="assets/scdt.png" alt="SCDT Screenshot">
+</div>
 
-🔗 https://factorypulse.streamlit.app/
-
----
-
-### **Supply Chain Decision Translator**
-A lightweight web application that converts weekly supply chain signals into **decision-ready summaries** with ownership and urgency.
-
-- Prioritizes risks instead of raw KPIs  
-- Clarifies ownership and recommended actions  
-- Designed for fast leadership review  
-
-🔗 https://scdt-app.streamlit.app/
-
----
-
-### **Adaptive Supply Chain Decision Engine (ASCDE)**
-A research-driven framework integrating forecast risk, demand variability, and inventory exposure into a single prioritization logic.
-
-- Forecast risk assessment using historical demand behavior  
-- SKU-level exposure scoring  
-- Tableau dashboard for planning visibility  
-
-🔗 **Dashboard:**  
-https://public.tableau.com/views/AdaptiveSupplyChainDecisionEngineASCDEEVPlanningPrioritization/AdaptiveSupplyChainDecisionEngineASCDE
+<div class="card project-grid">
+<strong>Adaptive Supply Chain Decision Engine</strong><br>
+<a href="https://public.tableau.com/views/AdaptiveSupplyChainDecisionEngineASCDEEVPlanningPrioritization/AdaptiveSupplyChainDecisionEngineASCDE" target="_blank">
+View Tableau Dashboard
+</a>
+</div>
 
 ---
 
 ## Skills
 
-**Supply Chain & Operations**
-- Inventory Management & Replenishment  
-- Demand Variability & Forecast Risk  
-- Material Flow & Bottleneck Analysis  
-- Warehouse Operations  
+<strong>Supply Chain and Operations</strong>
+<ul>
+<li>Inventory Management and Replenishment</li>
+<li>Demand Variability and Forecast Risk</li>
+<li>Material Flow and Bottleneck Analysis</li>
+<li>Warehouse Operations</li>
+</ul>
 
-**Analytics & Tools**
-- Python, SQL  
-- Advanced Excel  
-- Tableau  
-- AutoCAD  
-- ERP-style data analysis  
-
----
-
-## Education
-
-**Northeastern University**  
-M.S. Engineering Management (GPA: 3.67)
-
-**Dayananda Sagar College of Engineering**  
-B.E. Industrial Engineering & Management (GPA: 3.45)
+<strong>Analytics and Tools</strong>
+<ul>
+<li>Python, SQL</li>
+<li>Advanced Excel</li>
+<li>Tableau</li>
+<li>AutoCAD</li>
+<li>ERP-style data analysis</li>
+</ul>
 
 ---
 
 ## Contact
 
-- **Email:** satish.ru@northeastern.edu  
-- **LinkedIn:**  https://www.linkedin.com/in/rutwiksatish/
-- **GitHub:**  https://github.com/RutwikSatish/
-- **Portfolio**  https://github.com/RutwikSatish/rutwiksatish.github.io/
+Email: <a href="mailto:satish.ru@northeastern.edu">satish.ru@northeastern.edu</a><br>
+LinkedIn: <a href="https://www.linkedin.com/in/rutwiksatish/" target="_blank">linkedin.com/in/rutwiksatish</a><br>
+GitHub: <a href="https://github.com/RutwikSatish" target="_blank">github.com/RutwikSatish</a>
