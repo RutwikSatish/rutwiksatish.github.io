@@ -1,4 +1,17 @@
-<div class="toggle" onclick="toggleTheme()">Toggle dark mode</div>
+<nav style="border-bottom:1px solid #e5e7eb;">
+  <div style="max-width:900px;margin:0 auto;padding:12px 0;display:flex;gap:24px;">
+    <a href="/">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="resume.html">Resume</a>
+    <a href="mailto:satish.ru@northeastern.edu">Contact</a>
+  </div>
+</nav>
+
+<div style="max-width:900px;margin:0 auto;">
+
+  <div class="toggle" onclick="toggleTheme()">Toggle dark mode</div>
+
+</div>
 
 <script>
 function toggleTheme() {
@@ -15,6 +28,11 @@ function toggleTheme() {
     <p>
       <strong>Supply Chain and Operations Analyst</strong><br>
       Inventory, Planning, and Flow Decision Systems
+    </p>
+    <p>
+      <a href="resume.html">View resume</a> |
+      <a href="assets/resume.pdf" target="_blank">Download PDF</a> |
+      <a href="https://github.com/RutwikSatish" target="_blank">GitHub</a>
     </p>
   </div>
 </div>
@@ -35,9 +53,9 @@ Beyond my internships, I research real-world supply chain problems such as inven
 
 ## Focus Areas
 
-- Supply Chain Analytics
-- Inventory and Demand Planning
-- Operations and Execution Support
+- Supply Chain Analytics  
+- Inventory and Demand Planning  
+- Operations and Execution Support  
 
 </div>
 
@@ -50,7 +68,6 @@ Beyond my internships, I research real-world supply chain problems such as inven
 <div class="card">
 <strong>Mercedes-Benz R and D India</strong><br>
 Industrial Engineering Intern
-
 <ul>
 <li>Analyzed performance data across 25 plus production assets, identifying recurring fault patterns impacting downstream availability</li>
 <li>Supported root-cause analysis initiatives contributing to an approximate 10 percent reduction in repeat operational issues</li>
@@ -62,7 +79,6 @@ Industrial Engineering Intern
 <div class="card">
 <strong>Ativegh Logistics Pvt. Ltd.</strong><br>
 Logistics Intern
-
 <ul>
 <li>Conducted SKU-level inventory and material flow analysis contributing to an approximate 15 percent increase in service levels</li>
 <li>Reduced working capital by approximately 10 percent through replenishment analysis</li>
@@ -73,56 +89,44 @@ Logistics Intern
 
 ---
 
-## Flagship Project
+<a id="projects"></a>
+## Projects
+
+<div class="project-grid">
 
 <div class="card">
-<strong>PlanPulse - Demand Planning Auto Analyst</strong>
-
-<p><strong>Problem</strong><br>
-Planners monitor hundreds of SKUs, but risk is uneven. This leads to reactive firefighting and excess inventory.</p>
-
-<p><strong>Solution</strong><br>
-A decision-support system that prioritizes SKUs based on demand volatility, inventory exposure, and service risk.</p>
-
-<p><strong>What it delivers</strong></p>
-<ul>
-<li>Ranks SKUs by true operational risk</li>
-<li>Quantifies service versus inventory versus cash trade-offs</li>
-<li>Recommends next-best planning actions</li>
-</ul>
-
-<p>
-<a href="https://planpulse.streamlit.app/" target="_blank">View live application</a> |
-<a href="projects/planpulse.html">View detailed case study</a>
-</p>
-
-<img src="assets/planpulse.png" alt="PlanPulse screenshot">
+<strong>PlanPulse</strong><br>
+Demand Planning Auto Analyst<br>
+<a href="https://planpulse.streamlit.app/" target="_blank">Live app</a> |
+<a href="projects/planpulse.html">Case study</a>
+<img src="assets/planpulse.png" alt="PlanPulse">
 </div>
 
----
-
-## Other Projects
-
 <div class="card">
-<strong>FactoryPulse - Production Flow Simulator</strong><br>
-<a href="https://factorypulse.streamlit.app/" target="_blank">View application</a> |
+<strong>FactoryPulse</strong><br>
+Production Flow Simulator<br>
+<a href="https://factorypulse.streamlit.app/" target="_blank">Live app</a> |
 <a href="projects/factorypulse.html">Case study</a>
-<img src="assets/factorypulse.png" alt="FactoryPulse screenshot">
+<img src="assets/factorypulse.png" alt="FactoryPulse">
 </div>
 
 <div class="card">
 <strong>Supply Chain Decision Translator</strong><br>
-<a href="https://scdt-app.streamlit.app/" target="_blank">View application</a> |
+Prioritization and decision support tool<br>
+<a href="https://scdt-app.streamlit.app/" target="_blank">Live app</a> |
 <a href="projects/scdt.html">Case study</a>
-<img src="assets/scdt.png" alt="SCDT screenshot">
+<img src="assets/scdt.png" alt="SCDT">
 </div>
 
 <div class="card">
 <strong>Adaptive Supply Chain Decision Engine</strong><br>
+Forecast risk and inventory exposure framework<br>
 <a href="https://public.tableau.com/views/AdaptiveSupplyChainDecisionEngineASCDEEVPlanningPrioritization/AdaptiveSupplyChainDecisionEngineASCDE" target="_blank">
-View Tableau dashboard
+Tableau dashboard
 </a> |
 <a href="projects/ascde.html">Case study</a>
+</div>
+
 </div>
 
 ---
@@ -133,10 +137,10 @@ View Tableau dashboard
 
 ## Supply Chain and Operations
 
-- Inventory Management and Replenishment
-- Demand Variability and Forecast Risk
-- Material Flow and Bottleneck Analysis
-- Warehouse Operations
+- Inventory Management and Replenishment  
+- Demand Variability and Forecast Risk  
+- Material Flow and Bottleneck Analysis  
+- Warehouse Operations  
 
 </div>
 
@@ -144,11 +148,11 @@ View Tableau dashboard
 
 ## Analytics and Tools
 
-- Python and SQL
-- Advanced Excel
-- Tableau
-- AutoCAD
-- ERP-style data analysis
+- Python and SQL  
+- Advanced Excel  
+- Tableau  
+- AutoCAD  
+- ERP-style data analysis  
 
 </div>
 
@@ -167,13 +171,6 @@ GPA: 3.67
 <strong>Dayananda Sagar College of Engineering</strong><br>
 Bachelor of Engineering in Industrial Engineering and Management<br>
 GPA: 3.45
-
----
-
-## Resume
-
-<a href="resume.html">View embedded resume</a> |
-<a href="assets/resume.pdf" target="_blank">Download PDF</a>
 
 ---
 
