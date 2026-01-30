@@ -33,7 +33,7 @@
 
 I am a graduate student in Engineering Management at Northeastern University with one year of hands-on internship experience across logistics and industrial engineering.
 
-Beyond my internships, I research real-world supply chain problems such as inventory imbalance, planning noise, and execution delays. I build decision-support systems that translate operational data into clear, actionable decisions.
+Through my internships and independent projects, I have focused on understanding real-world supply chain problems such as inventory imbalance, planning noise, and execution delays. I build decision-support systems that translate operational data into clear, actionable insights for planners and operations teams.
 
 </div>
 
