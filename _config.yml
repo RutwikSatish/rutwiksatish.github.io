@@ -1,3 +1,4 @@
 title: Rutwik Satish
 description: Supply Chain and Operations Analyst
-show_downloads: false
+theme: jekyll-theme-hacker
+markdown: kramdown
