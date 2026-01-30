@@ -1,28 +1,19 @@
-![Rutwik Satish](assets/profile.jpg)
-
-# Rutwik Satish
-
-**Supply Chain and Operations Analyst**  
-Focused on inventory, planning, and execution decision systems.
-
-[Resume PDF](assets/resume.pdf) ·
-[GitHub](https://github.com/RutwikSatish) ·
-[LinkedIn](https://www.linkedin.com/in/rutwiksatish)
-
+---
+title: "Home"
 ---
 
 ## About
 
 I am a graduate student in Engineering Management at Northeastern University with one year of hands-on internship experience across logistics and industrial engineering.
 
-Through internships and independent projects, I focus on solving real-world supply chain problems such as inventory imbalance, planning noise, and execution delays. I build decision-support systems that translate operational data into clear, actionable insights for planners and operations teams.
+My work focuses on translating operational data into decision-support systems for planners and operations teams facing inventory imbalances, planning noise, and execution delays.
 
 ---
 
 ## Experience
 
 ### Mercedes-Benz Research and Development India Pvt. Ltd.  
-*Industrial Engineering Intern*
+**Industrial Engineering Intern**
 
 - Analyzed performance data across 25+ production assets, identifying recurring fault patterns impacting downstream availability  
 - Supported root-cause analysis initiatives contributing to an approximate 10% reduction in repeat operational issues  
@@ -30,7 +21,7 @@ Through internships and independent projects, I focus on solving real-world supp
 - Assisted PPAP-aligned documentation to support planning reliability  
 
 ### Ativegh Logistics Pvt. Ltd.  
-*Logistics Intern*
+**Logistics Intern**
 
 - Conducted SKU-level inventory and material flow analysis, contributing to an approximate 15% increase in service levels  
 - Reduced working capital by approximately 10% through replenishment analysis  
